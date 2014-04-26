@@ -1,0 +1,43 @@
+
+<style>
+    .main-pig{
+        background: red;
+        height: 20px;
+        width: 50%;
+    }
+    
+    .sig{
+        border-radius: 12px;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px) {
+    /* Styles */
+        .main-pig{
+                background: green;
+        }
+        
+    }
+    
+    @media only screen and (min-width : 960px) {
+        .main-pig{
+                background: blue;
+        }
+        .sig{
+            
+        }
+    }
+    
+    @media only screen and (max-width : 961px) {
+    .main-pig{
+                background: pink;
+        }
+        .sig{
+            border-radius: 5px;
+        }
+    }
+</style>
+
+<div class="main-pig sig">
+    Test store
+</div>
